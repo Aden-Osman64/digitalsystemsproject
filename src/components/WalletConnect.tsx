@@ -24,7 +24,6 @@ const WalletConnect: React.FC = () => {
     <div className="text-center">
       {isConnected ? (
         <div>
-          <p className="mb-2">Connected to: {address?.slice(0, 6)}...{address?.slice(-4)}</p>
           <button 
             className="btn btn-danger"
             onClick={() => disconnect()}
